@@ -1,0 +1,29 @@
+{
+  "name": "tmdlflix",
+  "version": "1.0.0",
+  "description": "start at 10.14.21 14:07",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wltmdl/tmdlflix.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wltmdl/tmdlflix/issues"
+  },
+  "homepage": "https://github.com/wltmdl/tmdlflix#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/node": "^7.15.8",
+    "@babel/preset-env": "^7.15.8"
+  }
+}
