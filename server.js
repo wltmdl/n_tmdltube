@@ -1,5 +1,5 @@
 import server from "./index";
 
-const PORT  = "3030";
+import md from "./md/index"
 
-server.listen(PORT,()=>{console.log("express IN")})
+server.listen(process.env.PORT,()=>{console.log("express IN")});

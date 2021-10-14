@@ -19,11 +19,13 @@
   },
   "homepage": "https://github.com/wltmdl/tmdlflix#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^6.0.10"
   },
   "devDependencies": {
     "@babel/core": "^7.15.8",
     "@babel/node": "^7.15.8",
-    "@babel/preset-env": "^7.15.8"
+    "@babel/preset-env": "^7.15.8",
+    "dotenv": "^10.0.0"
   }
 }
