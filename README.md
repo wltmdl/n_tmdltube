@@ -19,7 +19,12 @@ start at 10.14.21 14:07
 >>  4) (0)을 app.listen file 에 import
 > - dotenv way : 모든 값은 문자열로 취급됨(공백포함)
 >>  0) CREATE .env FILE
->>  1) 
+>>  1) import dotenv & dotenv.config() or ({path:'.env 포함한 경로'})
+
+** 003 :youtube layout- custom element(tag)
+> COMMENT_LO.txt
+> elements.js
+
 
 
 
