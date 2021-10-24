@@ -1,9 +1,90 @@
 div {
     border:solid;
     border-width:1px;
+    border-color: white;
+}
+
+button {
+    border:0;
+    background-color: rgba(0,0,100,0);
 }
 
 .ytd-tophead {
     display: flex;
+    align-items: center;
+}
+
+.ytc-side {
+
+    border-color: 0;
+}
+
+.ytc-sidefont {
+    line-height: 3;
+}
+.ytc-content-main {
+    width: 100%;
     border-color: red;
 }
+
+.ytc-sideitem {
+    width: 80px;
+    height: 80px;
+    border-color: red; 
+    justify-content: center;
+}
+
+.ytc-sideitem > a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.ytc-itemfont {
+    font-size: 50px;
+}
+.ytc-sideitem:hover {
+    background-color: rgba(100,100,100,30);
+}
+#ytc-search{
+    width: 450px;
+    height: 60px;
+}
+
+#tophead{
+    align-items: center;
+}
+#content{
+    display: flex;
+}
+
+.test_img {
+    object-fit: scale-down;
+    object-position: middle;
+    width: 100px;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    border: solid 1px;
+    background-size: cover;
+}
+
+#ytci-homelogocrop {
+    max-width: 240px;
+    max-height: 85px;
+    border-color: red;
+    overflow: hidden;
+}
+#ytci-homelogo {
+    width: 580px;
+    margin-left: -40%;
+    margin-top: -75%;
+}
+
+
+
+
+

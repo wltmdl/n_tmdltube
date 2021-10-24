@@ -1,4 +1,0 @@
-LO=layout
-- teg: renderer- a 와 img 혹은 클릭 범위를 늘려주는 것을 총 포함한 전체범위를 꽉채운 div 에 붙임
-    - 자체 태그(앨리먼츠) 만들기: 1.<-을 사용한 이름의 태그사용>  2.class 정의 3.customElements.define('태그이름',클래스이름)
-- 형식적인 큰 틀은 자체 태그 보다는 div 사용, class 이름을 사용해서 diplay 조절

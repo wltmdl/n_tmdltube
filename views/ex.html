@@ -10,24 +10,59 @@
 <body>
     <script src="elements.js"></script>
     <yt-new>TEST CUSTOM TAG </yt-new>
+
     <div name="frame">
         <div name="all">
-            <div name="tophead">
+            <div name="tophead" class="ytd-tophead" id="tophead">
                 <div name="start" class="ytd-tophead">
-                    <div name="yt-menu" class="ytd-tophead">
-                        <button>A</button>
+                    <div name="yt-menu" class="ytd-tophead ytc-sideitem">
+                        <button class="ytc-itemfont">⏏︎</button>
                     </div>
-                    <div name="yt-homelink-renderer" class="ytd-tophead">
-                        <a>
-                            <span>IorS</span>
-                        </a>
+                    <div name="yt-homelink-renderer" class="ytd-tophead" >
+                        <div id="ytci-homelogocrop">
+                            <a>
+                                <img id="ytci-homelogo" src="./imgs/img_big.jpg">
+                            </a>
+                        </div>
+                        
                     </div>
                 </div>
                 <div name="center" class="ytd-tophead">
-                    
+                    <form>
+                        <input id="ytc-search" type="search" placeholder="검색">
+                        <button>돋보기</button>
+                    </form>
                 </div>
                 <div name="end" class="ytd-tophead">
-                    
+                    <button>설정</button>
+                    <a>
+                        <span>로그인</span>
+                    </a>
+                </div>
+            </div>
+            <div name="content" id="content">
+                <div name="sidemenu" class="ytc-side">
+                    <div name="item">
+                        <div class="ytc-sideitem">
+                            <a href="/">
+                                <span class="ytc-sidefont">홈</span>
+                            </a>
+                        </div>
+                        <div class="ytc-sideitem">
+                            <a href="/">
+                                <span class="ytc-sidefont">탐색</span>
+                            </a>
+                        </div>
+                        <div class="ytc-sideitem">
+                            <a href="/">
+                                <span class="ytc-sidefont">구독</span>
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="ytc-content-main">
+                    <span >MAIN</span>
                 </div>
             </div>
         </div>
